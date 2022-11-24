@@ -113,7 +113,6 @@ public class Listeners extends BaseClass implements ITestListener{
 	@Override
 	public void onFinish(ITestContext context) {
 		logger.info(" end of execution");
-		System.out.println("test suite is ending");
 		extent.flush();
 		test.remove();
 	}

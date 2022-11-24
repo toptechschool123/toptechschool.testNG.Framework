@@ -1,33 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-23T19:27:11 PST" name="Suite" finished-at="2022-11-23T19:27:25 PST" duration-ms="13573">
+  <suite started-at="2022-11-24T10:43:11 PST" name="Default suite" finished-at="2022-11-24T10:43:26 PST" duration-ms="15513">
     <groups>
     </groups>
-    <test started-at="2022-11-23T19:27:11 PST" name="Test" finished-at="2022-11-23T19:27:25 PST" duration-ms="13573">
-      <class name="tests.LoginSteps_Simple">
-        <test-method is-config="true" signature="user_is_on_test_environment_page()[pri:0, instance:tests.LoginSteps_Simple@1f6c9cd8]" started-at="2022-11-23T19:27:11 PST" name="user_is_on_test_environment_page" finished-at="2022-11-23T19:27:20 PST" duration-ms="8761" status="PASS">
+    <test started-at="2022-11-24T10:43:11 PST" name="Default test" finished-at="2022-11-24T10:43:26 PST" duration-ms="15513">
+      <class name="tests.RegisterAccountTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegisterAccountTests@2415fc55]" started-at="2022-11-24T10:43:11 PST" name="beforeTest" finished-at="2022-11-24T10:43:18 PST" duration-ms="7545" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_is_on_test_environment_page -->
-        <test-method signature="checkTest2()[pri:0, instance:tests.LoginSteps_Simple@1f6c9cd8]" started-at="2022-11-23T19:27:20 PST" name="checkTest2" finished-at="2022-11-23T19:27:20 PST" duration-ms="15" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterAccountTests@2415fc55]" started-at="2022-11-24T10:43:19 PST" name="registerAccount" data-provider="getTestData" finished-at="2022-11-24T10:43:23 PST" duration-ms="4152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sayed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Seattle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1 st Ave Burien]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sayed@gmail.come]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kabulcity@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTest2 -->
-        <test-method signature="checkTest3()[pri:0, instance:tests.LoginSteps_Simple@1f6c9cd8]" started-at="2022-11-23T19:27:20 PST" name="checkTest3" finished-at="2022-11-23T19:27:20 PST" duration-ms="5" status="PASS">
+        </test-method> <!-- registerAccount -->
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterAccountTests@2415fc55]" started-at="2022-11-24T10:43:23 PST" name="registerAccount" data-provider="getTestData" finished-at="2022-11-24T10:43:26 PST" duration-ms="2568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Seattle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Takwila]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[khan@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[home@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTest3 -->
-        <test-method signature="loginTestPage()[pri:0, instance:tests.LoginSteps_Simple@1f6c9cd8]" started-at="2022-11-23T19:27:20 PST" name="loginTestPage" finished-at="2022-11-23T19:27:24 PST" duration-ms="4371" status="PASS">
+        </test-method> <!-- registerAccount -->
+        <test-method is-config="true" signature="GracefulTearDown()[pri:0, instance:tests.RegisterAccountTests@2415fc55]" started-at="2022-11-24T10:43:26 PST" name="GracefulTearDown" finished-at="2022-11-24T10:43:26 PST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestPage -->
-        <test-method is-config="true" signature="gracefulTearDown()[pri:0, instance:tests.LoginSteps_Simple@1f6c9cd8]" started-at="2022-11-23T19:27:24 PST" name="gracefulTearDown" finished-at="2022-11-23T19:27:25 PST" duration-ms="343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gracefulTearDown -->
-      </class> <!-- tests.LoginSteps_Simple -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- GracefulTearDown -->
+      </class> <!-- tests.RegisterAccountTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
