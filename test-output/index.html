@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\T540p\AppData\Local\Temp\testng-eclipse--630919634\testng-customsuite.xml</span>
+                    <span>C:\Users\T540p\AppData\Local\Temp\testng-eclipse-1548469362\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.RegisterAccountTests" class="method navigator-link" hash-for-method="registerAccount(Khan, Seattle, Takwila, khan@yahoo.com, home@123)">registerAccount(Khan, Seattle, Takwila, khan@yahoo.com, home@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.RegisterAccountTests" class="method navigator-link" hash-for-method="registerAccount(Sayed, Seattle, 1 st Ave Burien, Sayed@gmail.come, Kabulcity@123)">registerAccount(Sayed, Seattle, 1 st Ave Burien, Sayed@gmail.come, Kabulcity@123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.LoginSteps_Simple" class="method navigator-link" hash-for-method="loginTestPage">loginTestPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,23 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.RegisterAccountTests</span>
+              <span class="class-name">tests.LoginSteps_Simple</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registerAccount(Khan, Seattle, Takwila, khan@yahoo.com, home@123)">
-                  </a> <!-- registerAccount(Khan, Seattle, Takwila, khan@yahoo.com, home@123) -->
-                  <span class="method-name">registerAccount</span>
-                  <span class="parameters">(Khan, Seattle, Takwila, khan@yahoo.com, home@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerAccount(Sayed, Seattle, 1 st Ave Burien, Sayed@gmail.come, Kabulcity@123)">
-                  </a> <!-- registerAccount(Sayed, Seattle, 1 st Ave Burien, Sayed@gmail.come, Kabulcity@123) -->
-                  <span class="method-name">registerAccount</span>
-                  <span class="parameters">(Sayed, Seattle, 1 st Ave Burien, Sayed@gmail.come, Kabulcity@123)</span>
+                  <a name="loginTestPage">
+                  </a> <!-- loginTestPage -->
+                  <span class="method-name">loginTestPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\T540p\AppData\Local\Temp\testng-eclipse--630919634\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\T540p\AppData\Local\Temp\testng-eclipse-1548469362\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -160,7 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.RegisterAccountTests&quot;/&gt;
+      &lt;class name=&quot;tests.LoginSteps_Simple&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginTestPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.LoginSteps_Simple --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -200,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registerAccount')
-data.setCell(0, 2, 'tests.RegisterAccountTests')
-data.setCell(0, 3, 4152);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registerAccount')
-data.setCell(1, 2, 'tests.RegisterAccountTests')
-data.setCell(1, 3, 2568);
+data.setCell(0, 1, 'loginTestPage')
+data.setCell(0, 2, 'tests.LoginSteps_Simple')
+data.setCell(0, 3, 3914);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -228,9 +214,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LoginSteps_Simple</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkTest2</span>
+                <br/>
+                <span class="ignored-method-name">checkTest3</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -239,22 +234,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.RegisterAccountTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.LoginSteps_Simple</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
+                <span class="method-name">user_is_on_test_environment_page</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">registerAccount(Sayed, Seattle, 1 st Ave Burien, Sayed@gmail.come, Kabulcity@123)</span>
-                <span class="method-start">8533 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">registerAccount(Khan, Seattle, Takwila, khan@yahoo.com, home@123)</span>
-                <span class="method-start">12689 ms</span>
+                <span class="method-name">loginTestPage</span>
+                <span class="method-start">12984 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">GracefulTearDown</span>
-                <span class="method-start">15263 ms</span>
+                <span class="method-name">gracefulTearDown</span>
+                <span class="method-start">16908 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

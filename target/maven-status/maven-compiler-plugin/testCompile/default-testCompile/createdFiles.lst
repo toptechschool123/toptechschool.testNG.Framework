@@ -1,0 +1,7 @@
+tests\LoginSteps_Simple_testngAnno.class
+pageObjects\RegisterAccountPageObjects.class
+tests\Listeners.class
+tests\RegisterAccountTests.class
+tests\DataBase_Runner.class
+tests\LoginSteps_Simple.class
+pageObjects\LoginPageObjects.class

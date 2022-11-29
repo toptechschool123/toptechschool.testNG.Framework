@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.RegisterAccountTests">
+      <class name="tests.LoginSteps_Simple_testngAnno">
         <methods>
-          <include name="GracefulTearDown"/>
-          <include name="registerAccount"/>
-          <include name="beforeTest"/>
+          <include name="gracefulTearDown"/>
+          <include name="user_is_on_test_environment_page"/>
+          <include name="loginTestPage"/>
         </methods>
-      </class> <!-- tests.RegisterAccountTests -->
+      </class> <!-- tests.LoginSteps_Simple_testngAnno -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
