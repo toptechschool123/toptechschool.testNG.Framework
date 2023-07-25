@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-29T11:48:28 PST" name="Surefire suite" finished-at="2022-11-29T11:49:00 PST" duration-ms="31416">
+  <suite started-at="2022-11-29T16:05:10 PST" name="Surefire suite" finished-at="2022-11-29T16:05:42 PST" duration-ms="31357">
     <groups>
     </groups>
-    <test started-at="2022-11-29T11:48:28 PST" name="Surefire test" finished-at="2022-11-29T11:49:00 PST" duration-ms="31416">
+    <test started-at="2022-11-29T16:05:10 PST" name="Surefire test" finished-at="2022-11-29T16:05:42 PST" duration-ms="31357">
       <class name="tests.RegisterAccountTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T11:48:28 PST" name="beforeTest" finished-at="2022-11-29T11:48:36 PST" duration-ms="7629" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T16:05:10 PST" name="beforeTest" finished-at="2022-11-29T16:05:18 PST" duration-ms="7802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T11:48:37 PST" name="registerAccount" data-provider="getTestData" finished-at="2022-11-29T11:48:41 PST" duration-ms="4260" status="PASS">
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T16:05:19 PST" name="registerAccount" data-provider="getTestData" finished-at="2022-11-29T16:05:23 PST" duration-ms="4075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerAccount -->
-        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T11:48:41 PST" name="registerAccount" data-provider="getTestData" finished-at="2022-11-29T11:48:44 PST" duration-ms="2165" status="PASS">
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T16:05:23 PST" name="registerAccount" data-provider="getTestData" finished-at="2022-11-29T16:05:25 PST" duration-ms="2109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerAccount -->
-        <test-method is-config="true" signature="GracefulTearDown()[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T11:48:44 PST" name="GracefulTearDown" finished-at="2022-11-29T11:49:00 PST" duration-ms="16221" status="PASS">
+        <test-method is-config="true" signature="GracefulTearDown()[pri:0, instance:tests.RegisterAccountTests@6815c5f2]" started-at="2022-11-29T16:05:25 PST" name="GracefulTearDown" finished-at="2022-11-29T16:05:42 PST" duration-ms="16267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GracefulTearDown -->

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.RegisterAccountTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.082 s - in tests.RegisterAccountTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.32 s - in tests.RegisterAccountTests

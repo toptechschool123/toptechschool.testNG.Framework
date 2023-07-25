@@ -14,7 +14,7 @@ public class RegisterAccountTests extends BaseClass {
 	
 	RegisterAccountPageObjects registerObj; 
 
-
+// testng
 
 @BeforeTest
 public void beforeTest() {
