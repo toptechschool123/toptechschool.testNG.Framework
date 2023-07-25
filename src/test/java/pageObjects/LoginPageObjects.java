@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import core.BaseClass;
 
-
+////
 
 public class LoginPageObjects extends BaseClass{
 	
